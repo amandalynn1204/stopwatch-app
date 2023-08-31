@@ -1,0 +1,52 @@
+body {
+  background: rgb(25, 25, 25);
+}
+
+label {
+  color: rgb(150, 150, 150);
+}
+
+select {
+  padding: 2px 6px;
+}
+
+h1 {
+  color: white;
+  text-align: center;
+  font-size: 125px;
+}
+
+button {
+  color: white;
+  margin: 0 15px;
+  font-size: 25px;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 10px;
+}
+
+button:hover {
+  transition: all 150ms ease-in-out;
+  opacity: 0.6;
+}
+
+.theme-changer,
+.btn-list {
+  text-align: center;
+  margin: 50px auto;
+}
+
+.start-btn {
+  background: rgb(50, 115, 50);
+  border: 2px solid rgb(28, 76, 28);
+}
+
+.stop-btn {
+  background: rgb(140, 70, 70);
+  border: 2px solid rgb(87, 39, 39);
+}
+
+.reset-btn {
+  background: rgb(75, 75, 160);
+  border: 2px solid rgb(42, 42, 99);
+}
