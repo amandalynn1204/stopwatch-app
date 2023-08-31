@@ -1,5 +1,6 @@
 body {
   background: rgb(25, 25, 25);
+  font-family: monospace;
 }
 
 label {
@@ -14,17 +15,19 @@ select {
 
 h1 {
   color: white;
-  text-align: center;
   font-size: 125px;
+  margin: 0 auto;
 }
 
 button {
+  font-family: monospace;
   color: white;
-  margin: 0 15px;
+  margin: 30px 15px 15px;
   font-size: 25px;
   padding: 10px 20px;
   border: none;
   border-radius: 10px;
+  box-shadow: 3px 5px 8px rgba(0, 0, 0, 0.2);
 }
 
 button:hover {
@@ -32,10 +35,18 @@ button:hover {
   opacity: 0.7;
 }
 
-.theme-changer,
-.btn-list {
+.theme-changer {
   text-align: center;
   margin: 50px auto;
+}
+
+.container {
+  background: rgb(50, 50, 50);
+  text-align: center;
+  width: 600px;
+  margin: 0 auto;
+  padding: 20px;
+  border-radius: 10px;
 }
 
 .start-btn {
@@ -63,6 +74,10 @@ button:hover {
 
 .light h1 {
   color: rgb(50, 50, 50);
+}
+
+.light .container {
+  background: rgb(230, 230, 230);
 }
 
 .light .start-btn {
