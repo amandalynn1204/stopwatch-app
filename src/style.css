@@ -8,6 +8,8 @@ label {
 
 select {
   padding: 2px 6px;
+  color: rgb(150, 150, 150);
+  background: rgb(25, 25, 25);
 }
 
 h1 {
@@ -27,7 +29,7 @@ button {
 
 button:hover {
   transition: all 150ms ease-in-out;
-  opacity: 0.6;
+  opacity: 0.7;
 }
 
 .theme-changer,
@@ -49,4 +51,31 @@ button:hover {
 .reset-btn {
   background: rgb(75, 75, 160);
   border: 2px solid rgb(42, 42, 99);
+}
+
+.light {
+  background: white;
+}
+
+.light select {
+  background: white;
+}
+
+.light h1 {
+  color: rgb(50, 50, 50);
+}
+
+.light .start-btn {
+  background: #7ccd7c;
+  border: 2px solid #56aa56;
+}
+
+.light .stop-btn {
+  background: #ce8989;
+  border: 2px solid #b56262;
+}
+
+.light .reset-btn {
+  background: #8d8de0;
+  border: 2px solid #6868c1;
 }
