@@ -37,6 +37,9 @@ function stopTimer() {
 
 function resetTimer() {
   stopTimer();
+  minutes = 00;
+  seconds = 00;
+  milliseconds = 00;
   minutesElement.innerHTML = "00";
   secondsElement.innerHTML = "00";
   millisecondsElement.innerHTML = "00";
