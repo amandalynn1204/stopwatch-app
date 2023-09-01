@@ -27,6 +27,7 @@ function getTime() {
 }
 
 function startTimer() {
+  clearInterval(timerInterval);
   timerInterval = setInterval(getTime, 10);
 }
 
