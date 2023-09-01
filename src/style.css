@@ -121,12 +121,12 @@ p a:hover {
 }
 
 .underwater select {
-  background: transparent;
+  background: #058d7f;
   border: 1px solid rgb(200, 200, 200);
 }
 
 .underwater .container {
-  opacity: 0.5;
+  opacity: 0.6;
 }
 
 .underwater .start-btn {
@@ -142,4 +142,42 @@ p a:hover {
 .underwater .reset-btn {
   background-color: #01434b;
   border: 2px solid #003239;
+}
+
+.nature {
+  background-image: url("background-images/bridge.jpg");
+  background-size: cover;
+}
+
+.nature label,
+.nature select {
+  color: rgb(255, 255, 255);
+}
+
+.nature select {
+  background: #86a756;
+}
+
+.nature .container {
+  opacity: 1;
+}
+
+.nature p,
+.nature a {
+  color: rgb(200, 200, 200);
+}
+
+.nature .start-btn {
+  background: #606f2d;
+  border: 2px solid #45511b;
+}
+
+.nature .stop-btn {
+  background: #a6b777;
+  border: 2px solid #898d4a;
+}
+
+.nature .reset-btn {
+  background: #786d6c;
+  border: 2px solid #4e4342;
 }

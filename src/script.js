@@ -50,14 +50,22 @@ function changeTheme(event) {
   if (event.target.value === "dark") {
     body.classList.remove("light");
     body.classList.remove("underwater");
+    body.classList.remove("nature");
   }
   if (event.target.value === "light") {
     body.classList.remove("underwater");
+    body.classList.remove("nature");
     body.classList.add("light");
   }
   if (event.target.value === "underwater") {
     body.classList.remove("light");
+    body.classList.remove("nature");
     body.classList.add("underwater");
+  }
+  if (event.target.value === "nature") {
+    body.classList.remove("light");
+    body.classList.remove("underwater");
+    body.classList.add("nature");
   }
 }
 
