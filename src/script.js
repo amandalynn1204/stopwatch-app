@@ -37,9 +37,9 @@ function stopTimer() {
 
 function resetTimer() {
   stopTimer();
-  minutes = 00;
-  seconds = 00;
-  milliseconds = 00;
+  minutes = 0;
+  seconds = 0;
+  milliseconds = 0;
   minutesElement.innerHTML = "00";
   secondsElement.innerHTML = "00";
   millisecondsElement.innerHTML = "00";
@@ -49,15 +49,21 @@ function changeTheme(event) {
   let body = document.querySelector("body");
   if (event.target.value === "dark") {
     body.classList.remove("light");
+    body.classList.remove("underwater");
   }
   if (event.target.value === "light") {
+    body.classList.remove("underwater");
     body.classList.add("light");
+  }
+  if (event.target.value === "underwater") {
+    body.classList.remove("light");
+    body.classList.add("underwater");
   }
 }
 
-let minutes = 00;
-let seconds = 00;
-let milliseconds = 00;
+let minutes = 0;
+let seconds = 0;
+let milliseconds = 0;
 let minutesElement = document.querySelector("#minutes");
 let secondsElement = document.querySelector("#seconds");
 let millisecondsElement = document.querySelector("#milliseconds");

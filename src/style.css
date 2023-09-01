@@ -11,6 +11,7 @@ select {
   padding: 2px 6px;
   color: rgb(150, 150, 150);
   background: rgb(25, 25, 25);
+  border-radius: 4px;
 }
 
 h1 {
@@ -107,4 +108,38 @@ p a:hover {
 .light .reset-btn {
   background: #8d8de0;
   border: 2px solid #6868c1;
+}
+
+.underwater {
+  background-image: url("background-images/underwater.jpg");
+  background-size: cover;
+}
+
+.underwater label,
+.underwater select {
+  color: rgb(200, 200, 200);
+}
+
+.underwater select {
+  background: transparent;
+  border: 1px solid rgb(200, 200, 200);
+}
+
+.underwater .container {
+  opacity: 0.5;
+}
+
+.underwater .start-btn {
+  background: #06978c;
+  border: 2px solid #00635a;
+}
+
+.underwater .stop-btn {
+  background: #006266;
+  border: 2px solid #004143;
+}
+
+.underwater .reset-btn {
+  background-color: #01434b;
+  border: 2px solid #003239;
 }
